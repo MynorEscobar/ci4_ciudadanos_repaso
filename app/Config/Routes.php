@@ -61,5 +61,9 @@ $routes->post('modificar_nivel_acad','ControllerNivelesAcademicos::modificarNive
 
 $routes->post('modificar_usuario','ControllerUsuarios::modificarUsuario');
 
+$routes->post('dos','ControllerDos::dos');
+
+
+
 $routes->post('uno','ControllerUno::uno');
 
