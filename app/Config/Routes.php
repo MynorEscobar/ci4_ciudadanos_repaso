@@ -60,3 +60,6 @@ $routes->get('localizar_modificar_nivel/(:num)','ControllerNivelesAcademicos::lo
 $routes->post('modificar_nivel_acad','ControllerNivelesAcademicos::modificarNivel');
 
 $routes->post('modificar_usuario','ControllerUsuarios::modificarUsuario');
+
+$routes->post('dos','ControllerDos::dos');
+
