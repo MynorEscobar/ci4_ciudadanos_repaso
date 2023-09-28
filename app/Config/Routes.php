@@ -66,4 +66,6 @@ $routes->post('dos','ControllerDos::dos');
 
 
 $routes->post('uno','ControllerUno::uno');
-
+$routes->post('tres','ControllerUno::tres');
+$routes->post('cuatro','ControllerUno::tres');
+$routes->post('cinco','ControllerUno::tres');
