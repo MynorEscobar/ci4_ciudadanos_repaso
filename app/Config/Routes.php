@@ -64,6 +64,11 @@ $routes->post('modificar_usuario','ControllerUsuarios::modificarUsuario');
 $routes->post('dos','ControllerDos::dos');
 
 
+$routes->post('uno','ControllerUno::uno')
 
-$routes->post('uno','ControllerUno::uno');
+$routes->post('x','ControllerUno::uno')
+$routes->post('y','ControllerUno::uno')
+$routes->post('z','ControllerUno::uno')
+
+
 
